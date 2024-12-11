@@ -1,0 +1,876 @@
+.navbar .container-fluid {
+
+    background-color: grey;
+    color: black;
+    font-size: 30px;
+    margin: none;
+    }
+  
+    
+  
+  
+  
+  
+   .imgnav {
+    width: 25px;
+    height: auto;
+  }
+  
+  .nosotros {
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    color: grey;
+    display: block;
+    padding: 130px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  
+  
+  
+  
+  body {
+    background-color: gray;
+  }
+  
+  @media screen and (max-width: 600px) {
+    footer section .iconosimg img {
+      width: 25px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+  }
+  @media screen and (min-width: 601px) and (max-width: 960px) {
+    footer section .iconosimg img {
+      width: 25px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+  }
+  @media screen and (min-width: 961px) {
+    footer section .iconosimg img {
+      width: 25px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+  }
+  header .navbar .container-fluid {
+    color: black;
+    background-color: #808080;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  header .navbar .navbar .nosotros {
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    color: grey;
+    display: block;
+    padding: 130px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  header .navbar .imgnav {
+    width: 25px;
+    height: auto;
+  }
+  
+  /* _mobile.scss */
+  @media screen and (max-width: 600px) {
+    header > h1 {
+      font-size: 30px;
+      text-align: center;
+      background-color: black;
+      color: grey;
+      display: block;
+    }
+    h2 {
+      font-size: 25px;
+      margin-top: 10px;
+      text-align: center;
+      text-decoration: underline;
+    }
+    h3 {
+      font-size: 15px;
+      margin-top: 10px;
+      text-align: center;
+      background-color: black;
+      color: grey;
+      padding: 15px;
+    }
+  }
+  /* _tablet.scss */
+  @media screen and (min-width: 601px) and (max-width: 960px) {
+    header > h1 {
+      font-size: 30px;
+      text-align: center;
+      background-color: black;
+      color: grey;
+      display: block;
+    }
+    h2 {
+      font-size: 25px;
+      margin-top: 10px;
+      text-align: center;
+      text-decoration: underline;
+    }
+    h3 {
+      font-size: 20px;
+      margin-top: 10px;
+      text-align: center;
+      background-color: black;
+      color: grey;
+      padding: 15px;
+    }
+  }
+  /* _media desktop */
+  @media screen and (min-width: 961px) {
+    body header > h1 {
+      font-size: 70px;
+      text-align: center;
+      background-color: black;
+      color: grey;
+      display: block;
+    }
+    h2 {
+      margin-top: 20px;
+      text-align: center;
+      text-decoration: underline;
+    }
+    h3 {
+      margin-top: 50px;
+      text-align: center;
+      background-color: black;
+      color: grey;
+      padding: 15px;
+    }
+  }
+  /* _mobile.scss */
+  @media screen and (max-width: 600px) {
+    .contenedordeimagenes {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .contenedordeimagenes img {
+      width: 90px;
+      height: 190px;
+    }
+    button {
+      background-color: black;
+      color: grey;
+      margin: 5px;
+    }
+    button:hover {
+      background-color: #dcdcdc;
+      color: black;
+    }
+  }
+  /* _tablet.scss */
+  @media screen and (min-width: 601px) and (max-width: 960px) {
+    .contenedordeimagenes {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .contenedordeimagenes img {
+      width: 90px;
+      height: 190px;
+    }
+    button {
+      background-color: black;
+      color: grey;
+      margin: 5px;
+    }
+    button:hover {
+      background-color: #dcdcdc;
+      color: black;
+    }
+  }
+  /* _media desktop */
+  @media screen and (min-width: 961px) {
+    .contenedordeimagenes {
+      display: flex;
+      justify-content: center;
+    }
+    img {
+      width: 180px;
+      height: 380px;
+    }
+    button {
+      background-color: black;
+      color: grey;
+    }
+    .botones:hover {
+      background-color: #dcdcdc;
+      color: black;
+      border-radius: 7px;
+    }
+  }
+  /* _mobile.scss */
+  @media screen and (max-width: 600px) {
+    .grid-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding-top: 10px;
+    }
+    .item1 {
+      background-color: #dcdcdc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .item1 h2 {
+      font-size: 1.5rem;
+    }
+    .item1 ul {
+      padding-top: 40px;
+    }
+    .item2 {
+      background-color: #B4B4B4;
+      border-radius: 5px;
+      margin-top: 10px;
+      padding: 10px;
+    }
+    .item2 video {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+  }
+  /* _tablet.scss */
+  @media screen and (min-width: 601px) and (max-width: 960px) {
+    .grid-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding-top: 10px;
+    }
+    .item1 {
+      background-color: #dcdcdc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .item1 h2 {
+      font-size: 1.5rem;
+    }
+    .item1 ul {
+      padding-top: 40px;
+    }
+    .item2 {
+      background-color: #B4B4B4;
+      border-radius: 5px;
+      margin-top: 10px;
+      padding: 10px;
+    }
+    .item2 video {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+  }
+  /* _media desktop */
+  @media screen and (min-width: 961px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+    .item1 {
+      background-color: #dcdcdc;
+      border-radius: 5px;
+    }
+    .item1 h2 {
+      font-size: 3rem;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .item1 ul {
+      padding-top: 60px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .item2 {
+      background-color: #B4B4B4;
+      border-radius: 5px;
+    }
+    .item2 video {
+      width: calc(100% - 60px);
+      height: calc(100% - 60px);
+      object-fit: cover;
+      border-radius: 5px;
+      margin: 30px;
+    }
+    .item1 {
+      background-color: #B4B4B4;
+      grid-column: 1/2fr;
+      grid-row: 1/4;
+      border-radius: 5px;
+    }
+    .item1 h2 {
+      font-size: 3rem;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .item1 ul {
+      padding-top: 60px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .item2 {
+      background-color: #B4B4B4;
+      grid-column: 2/4;
+      grid-row: 1/4;
+      border-radius: 5px;
+    }
+    .item2 video {
+      width: calc(100% - 60px);
+      height: calc(100% - 60px);
+      object-fit: cover;
+      border-radius: 5px;
+      margin: 30px;
+    }
+    .grid-container {
+      margin: 25px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 150px);
+      padding-top: 200px;
+      column-gap: 30px;
+    }
+  }
+  /* _mobile.scss */
+  @media screen and (max-width: 600px) {
+    .contenedordeimagenes {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .contenedordeimagenes img {
+      width: 90px;
+      height: 190px;
+    }
+    button {
+      background-color: black;
+      color: grey;
+      margin: 5px;
+    }
+    button:hover {
+      background-color: #dcdcdc;
+      color: black;
+    }
+  }
+  /* _tablet.scss */
+  @media screen and (min-width: 601px) and (max-width: 960px) {
+    .contenedordeimagenes {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .contenedordeimagenes img {
+      width: 90px;
+      height: 190px;
+    }
+    button {
+      background-color: black;
+      color: grey;
+      margin: 5px;
+    }
+    button:hover {
+      background-color: #dcdcdc;
+      color: black;
+    }
+  }
+  /* _media desktop */
+  @media screen and (min-width: 961px) {
+    .contenedordeimagenes {
+      display: flex;
+      justify-content: center;
+    }
+    img {
+      width: 180px;
+      height: 380px;
+    }
+    button {
+      background-color: black;
+      color: grey;
+    }
+    .botones:hover {
+      background-color: #dcdcdc;
+      color: black;
+      border-radius: 7px;
+    }
+  }
+  /* _mobile.scss */
+  @media screen and (max-width: 600px) {
+    section > .consulta {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding-top: 10px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .formulario-contenedor {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px 10px 0 10px;
+    }
+    #NombreyApellido, #E-mail, #consultas {
+      text-align: left;
+    }
+    .gradientboton a {
+      color: black;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      background-image: linear-gradient(to right, grey, white);
+      text-decoration: none;
+      border-radius: 1px;
+    }
+  }
+  /* _tablet.scss */
+  @media screen and (min-width: 601px) and (max-width: 960px) {
+    section > .consulta {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding-top: 10px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .formulario-contenedor {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px 10px 0 10px;
+    }
+    #NombreyApellido, #E-mail, #consultas {
+      text-align: left;
+    }
+    .gradientboton a {
+      color: black;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      background-image: linear-gradient(to right, grey, white);
+      text-decoration: none;
+      border-radius: 1px;
+    }
+  }
+  /* _media desktop */
+  @media screen and (min-width: 961px) {
+    section > .consulta {
+      padding-top: 100px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      margin: 30px;
+      margin-right: 25px;
+    }
+  }
+  /* _media desktop */
+  @media screen and (min-width: 961px) {
+    body {
+      background-color: grey;
+    }
+    header > h1 {
+      font-size: 70px;
+      text-align: center;
+      background-color: black;
+      color: grey;
+      display: block;
+    }
+    h2 {
+      margin-top: 20px;
+      text-align: center;
+      text-decoration: underline;
+    }
+    h3 {
+      margin-top: 50px;
+      text-align: center;
+      background-color: black;
+      color: grey;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+    main > .main {
+      margin-top: 25px;
+    }
+    .contenedordeimagenes {
+      display: flex;
+      justify-content: center;
+    }
+    img {
+      width: 180px;
+      height: 380px;
+      background-color: grey;
+    }
+    button {
+      background-color: black;
+      color: grey;
+    }
+    .botones:hover {
+      background-color: #dcdcdc;
+      color: black;
+      border-radius: 7px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+    .item1 {
+      background-color: #dcdcdc;
+      border-radius: 5px;
+    }
+    .item1 h2 {
+      font-size: 3rem;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .item1 ul {
+      padding-top: 60px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .item2 {
+      background-color: #b4b4b4;
+      border-radius: 5px;
+    }
+    .item2 video {
+      width: calc(100% - 60px);
+      height: calc(100% - 60px);
+      object-fit: cover;
+      border-radius: 5px;
+      margin: 30px;
+    }
+    .item1 {
+      background-color: #B4B4B4;
+      grid-column: 1/2fr;
+      grid-row: 1/4;
+      border-radius: 5px;
+    }
+    .item1 h2 {
+      font-size: 3rem;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .item1 ul {
+      padding-top: 60px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .item2 {
+      background-color: #B4B4B4;
+      grid-column: 2/4;
+      grid-row: 1/4;
+      border-radius: 5px;
+    }
+    .item2 video {
+      width: calc(100% - 60px);
+      height: calc(100% - 60px);
+      object-fit: cover;
+      border-radius: 5px;
+      margin: 30px;
+    }
+    .grid-container {
+      margin: 25px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 150px);
+      padding-top: 200px;
+      column-gap: 30px;
+    }
+    section > .consulta {
+      padding-top: 100px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      margin: 30px;
+      margin-right: 25px;
+    }
+    footer section .iconosimg img {
+      width: 25px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+    .gradientboton a {
+      color: black;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      background-image: linear-gradient(to right, grey, white);
+      text-decoration: none;
+      border-radius: 1px;
+    }
+    .gradientboton p {
+      background-color: white;
+      color: black;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .contacto .gradientnav2 {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+  /* _mobile.scss */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: gray;
+    }
+    header > h1 {
+      font-size: 30px;
+      text-align: center;
+      background-color: black;
+      color: grey;
+      display: block;
+    }
+    h2 {
+      font-size: 25px;
+      margin-top: 10px;
+      text-align: center;
+      text-decoration: underline;
+    }
+    h3 {
+      font-size: 15px;
+      margin-top: 10px;
+      text-align: center;
+      background-color: black;
+      color: grey;
+      padding: 15px;
+    }
+    .contenedordeimagenes {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .contenedordeimagenes img img {
+      max-width: 100%;
+      height: auto;
+    }
+    button {
+      background-color: black;
+      color: grey;
+      margin: 5px;
+    }
+    button:hover {
+      background-color: #dcdcdc;
+      color: black;
+    }
+    .grid-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding-top: 10px;
+    }
+    .item1 {
+      background-color: #dcdcdc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .item1 h2 {
+      font-size: 1.5rem;
+    }
+    .item1 ul {
+      padding-top: 40px;
+    }
+    .item2 {
+      background-color: #B4B4B4;
+      border-radius: 5px;
+      margin-top: 10px;
+      padding: 10px;
+    }
+    .item2 video {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    section > .consulta {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding-top: 10px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .formulario-contenedor {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px 10px 0 10px;
+    }
+    #NombreyApellido, #E-mail, #consultas {
+      text-align: left;
+    }
+    .gradientboton a {
+      color: black;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      background-image: linear-gradient(to right, grey, white);
+      text-decoration: none;
+      border-radius: 1px;
+    }
+    .gradientboton p {
+      background-color: white;
+      color: black;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    footer section .iconosimg img {
+      width: 25px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+  }
+  /* _tablet.scss */
+  @media screen and (min-width: 601px) and (max-width: 960px) {
+    body {
+      background-color: gray;
+    }
+    header > h1 {
+      font-size: 30px;
+      text-align: center;
+      background-color: black;
+      color: grey;
+      display: block;
+    }
+    h2 {
+      font-size: 25px;
+      margin-top: 10px;
+      text-align: center;
+      text-decoration: underline;
+    }
+    h3 {
+      font-size: 20px;
+      margin-top: 10px;
+      text-align: center;
+      background-color: black;
+      color: grey;
+      padding: 15px;
+    }
+    .contenedordeimagenes {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .contenedordeimagenes img {
+      width: 90px;
+      height: 190px;
+    }
+    button {
+      background-color: black;
+      color: grey;
+      margin: 5px;
+    }
+    button:hover {
+      background-color: #dcdcdc;
+      color: black;
+    }
+    .grid-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding-top: 10px;
+    }
+    .item1 {
+      background-color: #dcdcdc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .item1 h2 {
+      font-size: 1.5rem;
+    }
+    .item1 ul {
+      padding-top: 40px;
+    }
+    .item2 {
+      background-color: #B4B4B4;
+      border-radius: 5px;
+      margin-top: 10px;
+      padding: 10px;
+    }
+    .item2 video {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    section > .consulta {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding-top: 10px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .formulario-contenedor {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px 10px 0 10px;
+    }
+    #NombreyApellido, #E-mail, #consultas {
+      text-align: left;
+    }
+    .gradientboton a {
+      color: black;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      background-image: linear-gradient(to right, grey, white);
+      text-decoration: none;
+      border-radius: 1px;
+    }
+    .gradientboton p {
+      background-color: white;
+      color: black;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    footer section .iconosimg img {
+      width: 25px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+  }
+  .borde-redondeado, .item1,
+  .item2,
+  .video,
+  .consulta {
+    border-radius: 5px;
+  }
+  
+  .l1{
+    background-color:grey;
+  }
+  
+  .c1 {
+    background-color: grey;
+  }
+  
+     
+  .l2 {
+    background-color: black;
+  
+  }
+  
+  .bg-body-tertiary {
+    background-color: transparent;
+  }
+  
+  
